@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: "event-manager"
+  datasource:
+    password: "1111"
+    url: "jdbc:postgresql://localhost:5432/postgres"
+    username: "postgres"
+  liquibase:
+    enabled: true
+    change-log: classpath:db/changelog/changelog-master.xml
